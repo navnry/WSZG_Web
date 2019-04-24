@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+html, body {
+    background: #ffffff;
+}
+
+body {
+    padding: .88rem 0 .9rem 0;
+}
+
+.main {
+    width: 100%;
+    padding: 0 .2rem;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1556070175699'); /* IE9 */
+    src: url('../font/iconfont.eot?t=1556070175699#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+    url('../font/iconfont.woff?t=1556070175699') format('woff'),
+    url('../font/iconfont.ttf?t=1556070175699') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url('../font/iconfont.svg?t=1556070175699#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fanhui:before {
+    content: "\e600";
+}
+
+.icon-youjian:before {
+    content: "\e668";
+}
+
+.icon-guanfangwangzhan:before {
+    content: "\e63a";
+}
+
+.icon-Telephone:before {
+    content: "\e61b";
+}
+
+.icon-dianhua:before {
+    content: "\e606";
+}
+
+.icon-dizhi:before {
+    content: "\e61a";
+}
+
+.icon-dianhua1:before {
+    content: "\e67f";
+}
+
+.icon-fanhui1:before {
+    content: "\e65f";
+}
+
+.icon-guanbi:before {
+    content: "\e696";
+}
+
+.icon-renminbi:before {
+    content: "\e607";
+}
+
+.icon-fanhui2:before {
+    content: "\e658";
+}
+
+.icon-wo:before {
+    content: "\e608";
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+.header {
+    width: 100%;
+    height: .88rem;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    padding: .15rem .2rem;
+    z-index: 7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo {
+    float: left;
+    border-right: 1px solid #cccccc;
+    padding-right: .1rem;
+}
+
+.header .logo a {
+    display: block;
+    text-indent: -999rem;
+    width: 1.61rem;
+    height: .57rem;
+    background: url("../images/base/logo.png") center center /cover no-repeat;
+}
+
+.header .desc {
+    width: 2.3rem;
+    padding-left: .12rem;
+    float: left;
+}
+
+.header .desc span {
+    font-size: .24rem;
+    color: #332c2b;
+    line-height: .3rem;
+}
+
+.header .menu {
+    float: right;
+    line-height: .58rem;
+}
+
+.header .menu i {
+    font-size: .4rem;
+    color: #000000;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 8;
+    background: rgba(0, 0, 0, 0);
+    transition: right .2s;
+}
+
+.nav.open {
+    right: 0;
+    transition: right .2s;
+}
+
+.nav .close-menu {
+    width: 3.8rem;
+    height: .88rem;
+    float: right;
+    background: #ffffff;
+    text-align: right;
+    box-shadow: 0 0 .05rem rgba(0, 0, 0, 0.2);
+}
+
+.nav .close-menu i {
+    display: block;
+    font-size: .4rem;
+    line-height: .58rem;
+    padding: .15rem .35rem;
+    color: #000000;
+}
+
+.nav .nav-wrapper {
+    width: 3.8rem;
+    height: 100%;
+    float: right;
+    background: #ffffff;
+    padding: 0 .35rem .9rem .4rem;
+    /*box-shadow: 0 0 .05rem rgba(0, 0, 0, 0.2);*/
+    overflow: auto;
+}
+
+
+.nav .nav-wrapper > ul > li {
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+
+}
+
+.nav .nav-wrapper > ul > li > a {
+    display: block;
+    font-size: .3rem;
+    color: #333333;
+    line-height: .9rem;
+}
+
+.nav .nav-wrapper > ul > li > i {
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    position: absolute;
+    top: .3rem;
+    right: 0;
+    background: url("../images/base/jia.png") center center/cover no-repeat;
+    transition: all .1s;
+}
+
+.nav .nav-wrapper > ul > li > i.on {
+    background: url("../images/base/jian.png") center center/cover no-repeat;
+    transition: all .1s;
+}
+
+.nav .submenu {
+    padding-left: .15rem;
+    padding-bottom: .3rem;
+    display: none;
+}
+
+.nav .submenu ol li a {
+    display: block;
+    font-size: .26rem;
+    color: #333333;
+    line-height: .6rem;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+.banner {
+    width: 100%;
+    height: 5.2rem;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
+.footer {
+    width: 100%;
+    height: .9rem;
+    background-color: #e70013;
+    border: solid 1px #cccccc;
+    position: fixed;
+    bottom: 0;
+    padding: .1rem 0;
+    z-index: 9;
+}
+
+.footer ul li {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+
+.footer ul li:first-child {
+    border-left: none;
+}
+
+.footer ul li a {
+    display: block;
+}
+
+.footer ul li a i {
+    font-size: .3rem;
+    color: #ffffff;
+    padding-right: .1rem;
+}
+
+.footer ul li a span {
+    font-size: .3rem;
+    color: #ffffff;
+    line-height: .7rem;
+}

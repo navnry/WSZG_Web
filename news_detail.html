@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <link rel="icon" href="images/base/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>威士重工-新闻详情</title>
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <h1>
+            <a href="index.html">这是啥？</a>
+        </h1>
+    </div>
+    <div class="desc">
+        <span>专注混凝土泵送设备研发与制造</span>
+    </div>
+    <div class="menu">
+        <i id="open-menu" class="iconfont">&#xe608;</i>
+    </div>
+</div>
+<div class="nav">
+    <div id="close-menu" class="close-menu">
+        <i class="iconfont">&#xe696;</i>
+    </div>
+    <div class="nav-wrapper">
+        <ul>
+            <li><a href="index.html">威士首页</a></li>
+            <li>
+                <i></i>
+                <a href="javascript:void (0)">威士简介</a>
+                <div class="submenu">
+                    <ol>
+                        <li><a href="about.html">关于威士</a></li>
+                        <li><a href="news.html">新闻咨询</a></li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <i></i>
+                <a href="javascript:void (0)">产品中心</a>
+                <div class="submenu">
+                    <ol>
+                        <li><a href="">T8/T9搅拌拖泵</a></li>
+                        <li><a href="">C8/C9车载搅拌泵</a></li>
+                        <li><a href="">搅拌臂架泵车Q8</a></li>
+                        <li><a href="">拖泵系列</a></li>
+                        <li><a href="">车载泵系列</a></li>
+                        <li><a href="">小型泵车系列</a></li>
+                    </ol>
+                </div>
+            </li>
+            <li><a href="case.html">施工案例</a></li>
+            <li><a href="service.html">售后服务</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href=""><img src="images/banner/banner_about_02.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner/banner_about_02.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="images/banner/banner_about_02.jpg" alt=""></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="block news">
+    <div class="container container-1">
+        <div class="main">
+            <div class="title">
+                <h2>新闻资讯-新闻详情</h2>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <ul>
+        <li>
+            <a href="index.html">
+                <i class="iconfont">&#xe65f;</i>
+                <span>回到首页</span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="iconfont">&#xe61b;</i>
+                <span>免费电话</span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="iconfont">&#xe607;</i>
+                <span>咨询价格</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
+<script src="js/nav.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var w = parseInt($("html").css("font-size")) / 100;
+        var banner = new Swiper(".banner .swiper-container", {
+            loop: true,
+            speed: 800,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false
+            },
+            pagination: {
+                el: ".banner .swiper-pagination"
+            }
+        });
+    })
+</script>
