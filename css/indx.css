@@ -59,14 +59,37 @@
 
 /**/
 /**/
+.container-1 .list ul li {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.container-1 .list ul li .pic {
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    align-items: center;
+    padding: 0 .2rem;
+}
+
+.container-1 .list ul li p {
+    font-size: .24rem;
+    color: #333333;
+}
+
 /**/
+
+
 /**/
-.container-2{
+.container-2 {
     padding-bottom: .5rem;
 }
-.container-2 .list ul{
+
+.container-2 .list ul {
     width: 7.95rem;
 }
+
 .container-2 .list ul li {
     width: 1.8rem;
     text-align: center;
@@ -87,18 +110,21 @@
     color: #333333;
     margin-top: .2rem;
 }
-.container-2 .list ul li p{
+
+.container-2 .list ul li p {
     font-size: .24rem;
     padding: 0 .05rem;
     color: #555555;
     line-height: .36rem;
 }
-.container-2 .list ul li b{
+
+.container-2 .list ul li b {
     display: block;
     font-size: .24rem;
     color: #e70013;
     line-height: .36rem;
 }
+
 /**/
 /**/
 .container-4 {
@@ -366,6 +392,15 @@
 .container-8 .column-item .swiper-container {
     width: 100%;
     height: 100%;
+}
+
+.container-8 .column-item .swiper-container .swiper-wrapper {
+    -webkit-transition-timing-function: linear; /*之前是ease-out*/
+    -moz-transition-timing-function: linear;
+    -ms-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    margin: 0 auto;
 }
 
 .container-8 .column-item .swiper-container .swiper-slide {
